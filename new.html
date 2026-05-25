@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profil Mahasiswa</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background-color: #f4f4f4; }
+        
+        .profile-container { 
+            background-color: white; 
+            padding: 25px; 
+            border-radius: 10px; 
+            width: 100%; 
+            max-width: 600px; 
+            margin: 0 auto; 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+            
+            /* Mengatur tata letak agar sejajar */
+            display: flex; 
+            align-items: flex-start; 
+            gap: 20px;
+        }
+
+        h2 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px; margin-top: 0; }
+        
+        .info-item { margin: 8px 0; display: flex; }
+        
+        /* Label (seperti "Nama") */
+        .label { font-weight: bold; color: #555; width: 100px; display: inline-block; }
+        
+        /* Value (seperti ": M. Raihan") */
+        .value { color: #333; }
+
+        /* Pengaturan foto */
+        .profile-photo img {
+            width: 150px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="profile-container">
+    <div class="profile-photo">
+        <img src="gambar/gue.jpg" alt="Foto Saya">
+    </div>
+    
+    <div class="profile-details">
+        <h2>Profil Mahasiswa</h2>
+        <div class="info-item"><span class="label">Nama</span> <span class="value">: Norhalimah</span></div>
+        <div class="info-item"><span class="label">NIM</span> <span class="value">: 240191090</span></div>
+        <div class="info-item"><span class="label">Jurusan</span> <span class="value">: Teknologi Informasi</span></div>
+        <div class="info-item"><span class="label">Email</span> <span class="value">: mahmuts@gmail.com</span></div>
+        <div class="info-item"><span class="label">Hobi</span> <span class="value">: Nonton & Baca Novel</span></div>
+    </div>
+</div>
+
+</body>
+</html>
